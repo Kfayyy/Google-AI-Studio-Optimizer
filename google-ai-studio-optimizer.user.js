@@ -5,7 +5,8 @@
 // @description  Collapse code + reduce lag + restore messages with stable UI
 // @match        https://aistudio.google.com/*
 // @author       Kfayyy
-// @downloadURL  https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js
+// @downloadURL https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js
+// @updateURL https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js
 // @grant        none
 // ==/UserScript==
 
