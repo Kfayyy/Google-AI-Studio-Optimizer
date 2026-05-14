@@ -46,6 +46,11 @@ https://aistudio.google.com/
 
 ---
 
+## Feedback / Issues
+
+If you encounter any problem, please open an issue:
+https://github.com/Kfayyy/Google-AI-Studio-Optimizer/issues
+
 ## Why this script exists
 
 Large conversations in Google AI Studio can become slow because:
