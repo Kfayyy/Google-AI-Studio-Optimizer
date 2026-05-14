@@ -8,6 +8,7 @@
 // @downloadURL https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js
 // @updateURL https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function() {
