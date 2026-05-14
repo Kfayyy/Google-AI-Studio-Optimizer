@@ -4,6 +4,7 @@
 // @version      4.1
 // @description  Collapse code + reduce lag + restore messages with stable UI
 // @match        https://aistudio.google.com/*
+// @author       Kfayyy
 // @grant        none
 // ==/UserScript==
 
