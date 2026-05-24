@@ -183,6 +183,4 @@ This can improve performance during long coding sessions because large expanded 
 
 Tip: You can wrap any text inside code blocks:
 
-```csharp
-text
-```
+```csharp (your text) ```
