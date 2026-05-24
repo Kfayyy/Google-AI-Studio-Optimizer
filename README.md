@@ -180,7 +180,3 @@ Clicking **Clean**:
 The **▼** button collapses all currently visible **code blocks**.
 
 This can improve performance during long coding sessions because large expanded code blocks significantly increase rendering load.
-
-Tip: You can wrap any text inside code blocks:
-
-```csharp (your text) ```
