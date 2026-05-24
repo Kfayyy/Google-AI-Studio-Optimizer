@@ -71,114 +71,118 @@ MIT
 
 ---
 
-## 📖 Utilisation
+## 📖 Usage
 
-Après avoir installé le script et ouvert Google AI Studio, l’optimiseur démarre automatiquement en arrière-plan. Aucune configuration supplémentaire n’est nécessaire.
+After installing the script and opening Google AI Studio, the optimizer starts automatically in the background. No additional setup is required.
 
-Le script ajoute deux boutons flottants en bas de la page :
+The script adds two floating buttons at the bottom of the page:
 
-### ⚡ Panneau de l’optimiseur
+### ⚡ Optimizer Panel
 
-Cliquez sur le bouton **⚡** pour ouvrir le panneau des paramètres.
+Click the **⚡** button to open the settings panel.
 
-Options disponibles :
+Available options:
 
 ### **Max visible**
 
-Détermine combien de messages restent affichés dans la conversation.
+Controls how many messages remain visible in the conversation.
 
-Exemple :
+Example:
 
-* "35" → seuls les 35 messages les plus récents restent visibles
-* les anciens messages sont automatiquement masqués
+* `35` → only the latest 35 messages remain visible
+* older messages are automatically hidden
 
-Valeurs plus faibles :
+Lower values:
 
-* réduisent l’utilisation mémoire
-* améliorent les performances
-* rendent le défilement plus fluide
+* reduce memory usage
+* improve performance
+* make scrolling smoother
 
-Valeurs plus élevées :
+Higher values:
 
-* gardent davantage d’historique visible
-* utilisent davantage de ressources navigateur
+* keep more conversation history visible
+* use more browser resources
 
 ---
 
 ### **Restore count**
 
-Détermine combien de messages cachés seront restaurés à chaque clic sur **Restore**.
+Controls how many hidden messages are restored each time you click **Restore**.
 
-Exemple :
+Example:
 
-* "10" → cliquer sur **Restore** réaffiche les 10 derniers messages cachés
+* `10` → clicking **Restore** will bring back the latest 10 hidden messages
 
-Utile lorsque vous souhaitez consulter temporairement une partie plus ancienne de la conversation.
+Useful when you want to temporarily view an older part of the conversation.
 
 ---
 
 ### **Cache size**
 
-Détermine combien de messages masqués sont conservés dans le cache de l’optimiseur.
+Controls how many hidden messages are kept in the optimizer cache.
 
-Exemple :
+Example:
 
-- `50` → les 50 derniers messages masqués restent immédiatement disponibles pour restauration.
+* `50` → the latest 50 hidden messages remain immediately available for restoration
 
-Valeurs plus faibles :
+Lower values:
 
-- réduisent l’utilisation mémoire
-- appliquent un nettoyage plus agressif de l’interface
+* reduce memory usage
+* apply more aggressive interface cleanup
 
-Valeurs plus élevées :
+Higher values:
 
-- gardent davantage d’historique rapidement accessible
-- utilisent davantage de ressources navigateur
+* keep more history quickly accessible
+* use more browser resources
 
-Remarque : le script agit uniquement sur l’affichage de la page. L’historique de votre conversation dans Google AI Studio n’est ni supprimé ni modifié.
+Note: The script only affects how content is displayed on the page. Your Google AI Studio conversation history is never deleted or modified.
 
 ---
 
 ### **⚡ Optimizer ON / OFF**
 
-Active ou désactive l’optimisation automatique.
+Enables or disables automatic optimization.
 
-**ON** : Le script est actif
+**ON**: The script is active.
 
-**OFF** : le script est désactivé. Il faut rafraichir la page pour que ce soit effectif. Comportement identique au fait de désactiver le script dnas Tampermonkey
+**OFF**: The script is disabled. Refresh the page for the change to take effect. This behaves the same as disabling the script in Tampermonkey.
 
 ---
 
 ### **⬆ Restore**
 
-Restaure des messages cachés selon la valeur définie dans **Restore count**.
+Restores hidden messages according to the value defined in **Restore count**.
 
-Exemple : Si "Restore count = 10" 
-Cliquer sur **Restore** réaffiche les 10 derniers messages masqués
+Example:
+
+If `Restore count = 10`
+
+Clicking **Restore** will bring back the latest 10 hidden messages.
 
 ---
 
 ### **⬇ Clean**
 
-Réapplique un clean avec les paramètres de "Max Visible".
+Reapplies the optimization using the current **Max visible** setting.
 
-Exemple : Si "Max Visible = 10" 
-Cliquer sur **Clean** : Seuls les 10 derniers messages seront visibles
+Example:
+
+If `Max visible = 10`
+
+Clicking **Clean**:
+
+* only the latest 10 messages will remain visible
 
 ---
 
-### ▼ Bouton de réduction du code
+### ▼ Code Collapse Button
 
-Le bouton **▼** réduit tous les **blocs de code** actuellement visibles.
+The **▼** button collapses all currently visible **code blocks**.
 
-Cela peut améliorer les performances lors de longues sessions de programmation, car les gros blocs de code développés augmentent fortement la charge de rendu de la page.
+This can improve performance during long coding sessions because large expanded code blocks significantly increase rendering load.
 
-Astuce : vous pouvez encapsuler n'importe quel texte dans ces balises :
+Tip: You can wrap any text inside code blocks:
 
 ```csharp
-texte
+text
 ```
-
----
-
-Le script fonctionne entièrement dans votre navigateur et ne modifie pas les réponses de l’IA ni n’envoie de données à des services externes.
