@@ -1,5 +1,7 @@
 # Google AI Studio Optimizer
 
+[![Installer le Script](https://img.shields.io/badge/Tampermonkey-Installer_le_Script-green.svg)](https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js)
+
 Improves performance in long Google AI Studio conversations by reducing DOM overload and rendering lag.
 
 ## Features
@@ -39,7 +41,7 @@ Make long Google AI Studio sessions faster, smoother, and completely lag-free wi
 https://www.tampermonkey.net/
 
 ### 2. Install the script
-Click the big green Install button
+[![Installer le Script](https://img.shields.io/badge/Tampermonkey-Installer_le_Script-green.svg)](https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js)
 
 or Download:
 https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js
