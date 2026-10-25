@@ -1,6 +1,6 @@
 # Google AI Studio Optimizer
 
-[![Installer le Script](https://img.shields.io/badge/Tampermonkey-Installer_le_Script-green.svg)](https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js)
+[![Instal Script](https://img.shields.io/badge/Tampermonkey-Installer_le_Script-green.svg)](https://raw.githubusercontent.com/Kfayyy/Google-AI-Studio-Optimizer/main/google-ai-studio-optimizer.user.js)
 
 Improves performance in long Google AI Studio conversations by reducing DOM overload, rendering lag, and adding advanced export capabilities.
 
